@@ -82,6 +82,29 @@
                     </button>
                 </div>
         </section>
+        <section class="container container--isoseles">
+            <h2 class="title">Calcular la altura de un triángulo isóseles</h2>
+            <p>Escribe cuanto miden los lados del triángulo:</p>
+            <form action="">
+                <label for="InputLado1">
+                    <span>Primer lado del triángulo:</span>
+                    <input class="input" type="number" id="InputLadoIs1">
+                </label>
+                <label for="InputLado2">
+                    <span>Segundo lado del triangulo:</span>
+                    <input class="input" type="number" id="InputLadoIs2">
+                </label>
+                <label for="InputBase">
+                    <span>Base del triángulo</span>
+                    <input class="input" type="number" id="InputBaseIs">
+                </label>
+                <div>
+                    <button class="primary-button primary-button--isoseles" type="button" onclick="calcularAlturaIsoseles()">
+                       Calcula la altura
+                    </button>
+                </div>
+            </form>
+        </section>
     </main>
     <script src="./figuras.js"></script>
 </body>

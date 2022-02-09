@@ -46,13 +46,16 @@ main {
 }
 
 .container--cuadrado {
-    background-color: #084C61;
+    background-color: #E84855;
 }
 .container--triangulo {
-    background-color: #DB504A;
+    background-color: #F9DC5C;
 }
 .container--circulo {
-    background-color: #E3B505;
+    background-color: #3185FC;
+}
+.container--isoseles {
+    background-color: #EFBCD5;
 }
 
 .title {

@@ -116,3 +116,21 @@ function calcularAreaCirculo() {
     const area = (valueRadio * valueRadio) * PI;
     alert(area);
 }
+//Altura triángulo isóseles
+function calcularAlturaIsoseles() {
+    const lado1 = document.getElementById("InputLadoIs1");
+    const valueLado1 = parseInt(lado1.value);
+
+    const lado2 = document.getElementById("InputLadoIs2");
+    const valueLado2 = parseInt(lado2.value);
+
+    const base = document.getElementById("InputBaseIs");
+    const valueBase = parseInt(base.value);
+
+    if(valueLado1 == valueLado2) {
+        const altura = Math.sqrt((valueLado1 * valueLado1) - ((valueBase * valueBase)/2));
+        alert(altura);
+    } else {
+        alert("Las alturas tienen valores diferentes, vuelve a intenrlo.");
+    }
+}
